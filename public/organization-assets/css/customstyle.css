@@ -1,0 +1,81 @@
+.manage-form{color: #fff;font-size: 20px;padding: 5px 12px;background: dodgerblue;width: 100%;display: block;}
+.toast-success {background-color: #025502 !important;}
+#sidebar-nav-menu button.app-sidebar__heading{background: none;color: #fff;border: none;}
+#sidebar-nav-menu .dropdown{display: inline-block;}
+.dropdown.open {
+    background: rgba(0, 191, 255, 0);
+    width: 100%;
+}
+#sidebar-nav-menu ul.dropdown-menu{position: unset !important;transform: none !important;transition: padding 300ms;padding: 0.25em 0 0 1rem;border: none;width: 100%;min-width: 13rem;}
+#sidebar-nav-menu ul.dropdown-menu li {margin-left: 20px;}
+.dropdown-toggle::after {color: #000; position: relative;top: 2px;opacity: .8;margin-left: 5px;display: inline-block;vertical-align: 0.255em;content: "";border-top: 0.3em solid;border-right: 0.3em solid transparent;border-bottom: 0;border-left: 0.3em solid transparent;}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: #eee;
+}
+.form-horizontal label.container{max-width: 100%;}
+.form-horizontal label.container {
+    display: block;
+    position: relative;
+    padding-left: 27px;
+    margin-bottom: 12px !important;
+    cursor: pointer;
+    font-size: 12px;
+    user-select: none;
+}
+label.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+label.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+label.container input:checked ~ .checkmark:after {
+    display: block;
+}
+label.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.doc-alx-pvr-wrapper .pvr-header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-bottom: 0.6rem;
+    margin-bottom: 1.6rem;
+    position: relative;
+    z-index: 1;
+}
+.doc-alx-pvr-wrapper .pvr-header::after {
+    content: "";
+    background-color: #E41F36;
+    width: 3rem;
+    height: 2px;
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+}
+.red, .color-red {
+    color: #a94442 !important;
+}
+a.nav-link.btn-primary{
+    background-color: #00beff !important;
+    color: #fff !important;
+}
